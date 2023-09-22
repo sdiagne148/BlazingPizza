@@ -14,11 +14,8 @@
     <title>Blazing Pizza</title>
 </head>
 <body>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
 
-    <div class="content">
-        <component type="typeof(App)" render-mode="ServerPrerendered" />
-    </div>
-    
     <div id="blazor-error-ui">
         <environment include="Staging,Production">
             An error has occurred. This application may no longer respond until reloaded.
